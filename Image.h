@@ -21,6 +21,7 @@ public:
 		std::vector<Color> data;
 		int width, height;
 
+public:
 			Image(int _width = 0, int _height = 0) :width(_width), height(_height) {
 				data.resize(width * height);
 			}
